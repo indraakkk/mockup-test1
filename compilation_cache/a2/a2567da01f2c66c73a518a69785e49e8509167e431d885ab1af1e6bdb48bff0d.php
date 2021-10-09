@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* index.html */
-class __TwigTemplate_6a4f8a96e3645b1eb606cb9ab5c7609728f54edfe4ea603c1405196268edc977 extends Template
+class __TwigTemplate_9823f58048f9dd0d81aad764618c5cc1f331daea9dc7f646857c37cdfe748b38 extends Template
 {
     private $source;
     private $macros = [];
@@ -140,6 +140,6 @@ class __TwigTemplate_6a4f8a96e3645b1eb606cb9ab5c7609728f54edfe4ea603c1405196268e
     {% include 'components/footer.html' %}
   <script src=\"assets\\js\\bootstrap.bundle.min.js\"></script>
 </body>
-</html>", "index.html", "C:\\Users\\user\\devel\\mockup\\templates\\index.html");
+</html>", "index.html", "/var/www/html/templates/index.html");
     }
 }

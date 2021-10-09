@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* components/footer.html */
-class __TwigTemplate_d6d6e9e1828b6ea504c7d748574edeb5de9654414dd9b94ce1d7dbe4a058033a extends Template
+class __TwigTemplate_4dbef7f93332f124d47c2741bf39a271612f27f802a067f6b0b246ebaa310c2b extends Template
 {
     private $source;
     private $macros = [];
@@ -455,6 +455,6 @@ class __TwigTemplate_d6d6e9e1828b6ea504c7d748574edeb5de9654414dd9b94ce1d7dbe4a05
   </div>
 </div>
 
-", "components/footer.html", "C:\\Users\\user\\devel\\mockup\\templates\\components\\footer.html");
+", "components/footer.html", "/var/www/html/templates/components/footer.html");
     }
 }

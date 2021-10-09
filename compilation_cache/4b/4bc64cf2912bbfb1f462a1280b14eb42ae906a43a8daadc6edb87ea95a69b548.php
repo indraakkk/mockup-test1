@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* components/packages.html */
-class __TwigTemplate_a65cc70bde8727228ba9bb3f043fce6ab5ef68c51e31d0dc05b2502083aa2e37 extends Template
+class __TwigTemplate_26b72f4ea2c37c71d4d3054da86d84bb702f20317c992011ac068edff1f3f401 extends Template
 {
     private $source;
     private $macros = [];
@@ -245,6 +245,6 @@ class __TwigTemplate_a65cc70bde8727228ba9bb3f043fce6ab5ef68c51e31d0dc05b2502083a
     {% endif %}
     {% endfor %}
   </div>
-</div>", "components/packages.html", "C:\\Users\\user\\devel\\mockup\\templates\\components\\packages.html");
+</div>", "components/packages.html", "/var/www/html/templates/components/packages.html");
     }
 }

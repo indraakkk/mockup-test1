@@ -13,7 +13,7 @@ use Twig\Source;
 use Twig\Template;
 
 /* components/feature.html */
-class __TwigTemplate_c4fbcd36f1e3ee6280713c9f4dd87d3a2fad541fe290ba220fa7ba2b14142423 extends Template
+class __TwigTemplate_7416b584909bbad996b60f49955748800d6387d8deda3f24998aeb815b0c1422 extends Template
 {
     private $source;
     private $macros = [];
@@ -111,6 +111,6 @@ class __TwigTemplate_c4fbcd36f1e3ee6280713c9f4dd87d3a2fad541fe290ba220fa7ba2b141
     <h2>Paket Hosting Singapura yang tepat</h2>
     <h3>Diskon 40% + Domain dan SSL gratis untuk Anda</h3>
   </div>
-</div>", "components/feature.html", "C:\\Users\\user\\devel\\mockup\\templates\\components\\feature.html");
+</div>", "components/feature.html", "/var/www/html/templates/components/feature.html");
     }
 }

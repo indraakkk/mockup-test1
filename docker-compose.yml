@@ -1,0 +1,33 @@
+version: "3.9"
+services:
+  # nginx service
+  nginx_web:
+    image: nginx:stable-alpine
+    container_name: nginx_web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker-config/mockup.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - php
+    networks:
+      - mockup_project
+
+  # php-fpm service
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: php
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - "9000:9000"
+    networks:
+      - mockup_project
+
+networks:
+  mockup_project:
+    name: "development"
+    driver: bridge
